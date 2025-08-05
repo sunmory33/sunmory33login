@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUNIA SUNMORY33 | Blog All Bonus SUNMORY33</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <style>
+        /* Menggunakan font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* bg-gray-900 */
+        }
+        /* Efek smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Custom scrollbar untuk tampilan yang lebih baik di dark mode */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1f2937; /* bg-gray-800 */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4f46e5; /* bg-indigo-600 */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6366f1; /* bg-indigo-500 */
+        }
+    </style>
+</head>
+<body class="text-gray-300">
+
+    <!-- Header & Navigasi -->
+    <header class="bg-gray-900/70 backdrop-blur-lg shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-extrabold text-white tracking-wider">DUNIA<span class="text-indigo-500"> SUNMORY33</span></a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="https://goshort.info/VVIPSUN33" class="text-gray-300 hover:text-indigo-400 transition duration-300">LOGIN</a>
+                <a href="https://goshort.info/VVIPSUN33" class="text-gray-300 hover:text-indigo-400 transition duration-300">DAFTAR</a>
+            </div>
+            <!-- Tombol Menu Mobile -->
+            <button id="mobile-menu-button" class="md:hidden text-white">
+                <i data-feather="menu" class="w-6 h-6"></i>
+            </button>
+        </nav>
+        <!-- Menu Mobile -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800">
+            <a href="#home" class="block py-3 px-6 text-sm text-gray-300 hover:bg-gray-700">Home</a>
+            <a href="https://goshort.info/VVIPSUN33 " class="block py-3 px-6 text-sm text-gray-300 hover:bg-gray-700">Reviews</a>
+            <a href="https://goshort.info/VVIPSUN33 " class="block py-3 px-6 text-sm text-gray-300 hover:bg-gray-700">Berita</a>
+            <a href="https://goshort.info/VVIPSUN33 " class="block py-3 px-6 text-sm text-gray-300 hover:bg-gray-700">Tentang</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-8">
+
+        <!-- Postingan Unggulan -->
+        <section id="home" class="mb-12">
+            <div class="relative rounded-lg overflow-hidden h-[60vh] flex items-end p-8 text-white bg-gray-800">
+                <img src="https://i.ibb.co/Pz1Lz1FV/AAAABfj-Flp2knrovo-WG6x-A8-i-LLO-4bb86-YMq-JWGht-NWKCdwcu-Tk-Yfr-Lx-Li-Rd83-YMp4-Kpzp-Bvv3-32k-Ft-Mc.jpg" 
+                     alt="Gambar postingan unggulan" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                <div class="relative z-10">
+                    <span class="bg-indigo-600 text-white px-3 py-1 text-sm font-semibold rounded-full mb-2 inline-block">BONUS NEW MEMBER</span>
+                    <h1 class="text-3xl md:text-5xl font-bold mb-3 leading-tight">SUNMORY33 Pusat Game Terbesar di Asia</h1>
+                    <p class="max-w-3xl text-gray-300 hidden md:block">Selamat datang di SUNMORY33, platform terpercaya dan terlengkap untuk para pecinta game online yang mencari pengalaman bermain yang seru, aman, dan menguntungkan....</p>
+                    <a href="https://goshort.info/VVIPSUN33" class="mt-4 inline-block font-semibold text-white hover:text-indigo-400 transition duration-300 group">
+                        Baca Selengkapnya <i data-feather="arrow-right" class="inline-block w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Konten Utama: Postingan & Sidebar -->
+        <div class="grid lg:grid-cols-3 gap-12">
+            
+            <!-- Daftar Postingan -->
+            <div id="reviews" class="lg:col-span-2">
+                <h2 class="text-2xl font-bold text-white mb-6">Postingan Terbaru</h2>
+                <div class="space-y-8">
+                    <!-- Artikel 1 -->
+                    <article class="flex flex-col md:flex-row gap-6 group">
+                        <div class="md:w-1/3">
+                            <img src="https://placehold.co/400x300/4338ca/ffffff?text=Jujutsu+Kaisen" 
+                                 onerror="this.onerror=null;this.src='https://placehold.co/400x300/cccccc/ffffff?text=Image+Not+Found';"
+                                 alt="Thumbnail Jujutsu Kaisen" class="rounded-lg object-cover w-full h-full group-hover:opacity-80 transition-opacity">
+                        </div>
+                        <div class="md:w-2/3">
+                            <span class="text-sm text-indigo-400 font-medium">Review</span>
+                            <h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-indigo-400 transition-colors">
+                                <a href="#">Mengapa Jujutsu Kaisen Season 2 Begitu Fenomenal?</a>
+                            </h3>
+                            <p class="text-gray-400 text-sm leading-relaxed">Dari animasi yang memukau hingga penceritaan yang mendalam, season kedua JJK menetapkan standar baru untuk anime shonen modern.</p>
+                            <p class="text-xs text-gray-500 mt-3">Oleh Admin • 3 Hari yang lalu</p>
+                        </div>
+                    </article>
+
+                    <!-- Artikel 2 -->
+                    <article id="news" class="flex flex-col md:flex-row gap-6 group">
+                        <div class="md:w-1/3">
+                            <img src="https://placehold.co/400x300/be123c/ffffff?text=Chainsaw+Man" 
+                                 onerror="this.onerror=null;this.src='https://placehold.co/400x300/cccccc/ffffff?text=Image+Not+Found';"
+                                 alt="Thumbnail Chainsaw Man" class="rounded-lg object-cover w-full h-full group-hover:opacity-80 transition-opacity">
+                        </div>
+                        <div class="md:w-2/3">
+                            <span class="text-sm text-rose-400 font-medium">Berita</span>
+                            <h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-rose-400 transition-colors">
+                                <a href="#">Film Chainsaw Man 'Reze Arc' Diumumkan, Kapan Tayang?</a>
+                            </h3>
+                            <p class="text-gray-400 text-sm leading-relaxed">Studio MAPPA secara resmi mengumumkan kelanjutan dari seri Chainsaw Man dalam format film yang akan mengadaptasi arc Reze.</p>
+                            <p class="text-xs text-gray-500 mt-3">Oleh Admin • 5 Hari yang lalu</p>
+                        </div>
+                    </article>
+
+                    <!-- Artikel 3 -->
+                    <article class="flex flex-col md:flex-row gap-6 group">
+                        <div class="md:w-1/3">
+                            <img src="https://placehold.co/400x300/059669/ffffff?text=Isekai" 
+                                 onerror="this.onerror=null;this.src='https://placehold.co/400x300/cccccc/ffffff?text=Image+Not+Found';"
+                                 alt="Thumbnail Isekai" class="rounded-lg object-cover w-full h-full group-hover:opacity-80 transition-opacity">
+                        </div>
+                        <div class="md:w-2/3">
+                            <span class="text-sm text-emerald-400 font-medium">Daftar Top</span>
+                            <h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-emerald-400 transition-colors">
+                                <a href="#">Top 5 Anime Isekai dengan Konsep Paling Unik</a>
+                            </h3>
+                            <p class="text-gray-400 text-sm leading-relaxed">Bosan dengan isekai yang itu-itu saja? Berikut adalah daftar anime isekai yang berani tampil beda dan segar.</p>
+                            <p class="text-xs text-gray-500 mt-3">Oleh Admin • 1 Minggu yang lalu</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <aside id="about" class="lg:col-span-1">
+                <!-- Widget Tentang Saya -->
+                <div class="bg-gray-800 p-6 rounded-lg mb-8">
+                    <h3 class="text-lg font-bold text-white mb-4 border-b border-gray-700 pb-2">Tentang Blog Ini</h3>
+                    <p class="text-sm text-gray-400">
+                        Selamat datang di SUNMORY33, platform web terpercaya dan terlengkap untuk para pecinta game online yang mencari pengalaman bermain yang seru, aman, dan menguntungkan. Di SUNMORY33, kami menyajikan ...
+                    </p>
+                </div>
+
+                <!-- Widget Kategori -->
+                <div class="bg-gray-800 p-6 rounded-lg mb-8">
+                    <h3 class="text-lg font-bold text-white mb-4 border-b border-gray-700 pb-2">Kategori</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="flex justify-between items-center text-gray-300 hover:text-indigo-400 transition-colors">Review <span class="text-xs text-gray-500">12</span></a></li>
+                        <li><a href="#" class="flex justify-between items-center text-gray-300 hover:text-indigo-400 transition-colors">Berita <span class="text-xs text-gray-500">8</span></a></li>
+                        <li><a href="#" class="flex justify-between items-center text-gray-300 hover:text-indigo-400 transition-colors">Daftar Top <span class="text-xs text-gray-500">5</span></a></li>
+                        <li><a href="#" class="flex justify-between items-center text-gray-300 hover:text-indigo-400 transition-colors">Opini <span class="text-xs text-gray-500">3</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Widget Ikuti Kami -->
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-lg font-bold text-white mb-4 border-b border-gray-700 pb-2">Ikuti Kami</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-feather="twitter" class="w-5 h-5"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-feather="instagram" class="w-5 h-5"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-feather="youtube" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 border-t border-gray-700 mt-12">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <p>&copy; 2024 DuniaAnime. Dibuat dengan cinta untuk para wibu di seluruh dunia.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Inisialisasi Feather Icons
+        feather.replace();
+
+        // Logika untuk menu mobile
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Menutup menu mobile saat tautan di-klik
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileMenuLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
